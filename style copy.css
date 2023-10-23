@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* align-items: center; */
+    box-sizing: border-box;
+}
+.paper{
+    margin: 20px auto;
+    width: 8.3in;
+    border: 3px solid black;
+    height: 11.7in;
+    display: flex;
+    flex-direction: column;
+
+}
+.header{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+}
+.header h1{
+    color: green;
+    font-size:35px ;
+}
+.container{
+    display: flex;
+    width: 100%;
+    height: 400px;
+    justify-content: space-evenly;
+}
+.container .logo-div{
+    width: 25%;
+}
+.container .logo-div img{
+    width: 100px;
+    height: 100px;
+    margin:10px;
+}
+.container .center-container{
+    width: 50%;
+    /* display: flex;
+    flex-direction: column; */
+}
+.container .img-field{
+    width: 25%;
+}
+.container .img-field input{
+    width: 100px;
+    height: 100px;
+    border: 2px solid;
+}
+.center-container{
+    text-align: center;
+}
+.center-container .up-center{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.center-container .up-center  h2{
+ color: red;
+ font-size: 25px;
+}
+.center-container .up-center h3{
+    font-size: 20px;
+    font-weight: 800;
+}
+.btm-center p{
+    font-weight: 800;
+}
+.up-center{
+    font-weight: 800;
+}
+.line{
+    margin-top: 10px;
+    width: 100%;
+    position: relative;
+    height: 1px;
+    background-color: 20px;
+    border: 2px solid green;
+}
+.line2{
+    /* content: ''; */
+    margin-top: 0px;
+    margin-top: 10px;
+    width: 100%;
+    position:relative;
+    height: 1px;
+    background-color: 20px;
+    border: 2px solid red;
+}
+.form{
+    margin: 0px auto;
+}
+.form input{
+    border: none;
+    width: 40em;
+    border-bottom: 2px dotted   ;
+}
+.per-data .under-txt{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+.per-data .sep-div input{
+    width: 17em;
+}
+.per-data .sep-btm input{
+    width: 30em;
+}
+.form .part2{
+ margin-top: 10px;
+}
+.form .part2 input{
+    width: 20px;
+    margin: 8px;
+}
+.form .part3{
+    margin-top: 10px;
+}
+.form .part3 input{
+    width: 35em;
+}
+.form .part4{
+    margin-top: 10px;
+}
+.form .part4 .inline{
+    width: 20em;
+}
+.form .part4 span{
+    font-weight: 800;
+}
+.form .bottom{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.form .bottom input{
+    width: 100px;
+}
+
+
+
+

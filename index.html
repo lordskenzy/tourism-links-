@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="contain">
+        <div class="form-box">
+            <h1 id="title">Sign Up</h1>
+            <form action="#" id="otp-form">
+                <div class="input-group">
+                    <div class="input-field" id="nameField">
+                       <i class="fa-solid fa-user"></i> 
+                       <input type="text" placeholder="Name">
+                    </div>
+
+                    <div class="input-field">
+                        <i class="fa-solid fa-user"></i> 
+                        <input type="number " placeholder="Phone number">
+                     </div>
+
+                     <div class="input-field">
+                        <i class="fa-solid fa-user"></i> 
+                        <input type="text" placeholder="otp" id="otpInput">
+                     </div>
+                     <p>Generate OTP <a href="./generator.html">click here</a></p>
+                </div>
+                <div class="btn-field">
+                    <button type="button" id="signIn"> <a href="./form.html">Sign In</a></button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+<style>
+    .contain{
+        width: 100%;
+        height: 100vh;
+        background-color: rgb(130, 106, 251);
+        /* background-position: center;
+        background-size: cover;
+        position: relative; */
+    }
+    .form-box{
+        width: 90%;
+        max-width: 450px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background: #fff;
+        padding: 50px 60px 70px;
+        text-align: center;
+    }
+    .form-box h1{
+        font-size: 30px;
+        margin-bottom: 60px;
+        color: rgb(130, 106, 251);
+        position: relative;
+        font-weight: 800;
+    }
+    .form-box h1::after{
+        content: '';
+        width: 30px;
+        height: 2px;
+        border-radius: 3px;
+        background: #3c00a0;
+        position: absolute;
+        bottom: -12px;
+        left: 50%;
+        transform: translate(-50%);
+    }
+    .input-field{
+        background: #eaeaea;
+        margin: 15px 0;
+        border-radius: 3px;
+        display: flex;
+        align-items: center;
+    }
+    input{
+        width: 100%;
+        background: transparent;
+        border: 0;
+        outline: 0;
+        padding: 18px 15px;
+    }
+    .input-field i{
+        margin-left: 15px;
+        color: #999;
+    }
+    form p{
+        text-align: left;
+        font-size: 13px;
+    }
+    form p a{
+        text-decoration: none;
+        color: #3c00a0;
+    }
+    .btn-field{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }    
+    button{
+        flex-basis: 48%;
+        background: #3c00a0;
+        color: #fff;
+        height: 40px;
+        border-radius: 20px;
+        outline: none;
+        border: none;
+        cursor: pointer;
+        transition: bacground 1s;
+    }
+    .input-group{
+        height: 280px;
+    }
+
+</style>
+<script src="./index.js"></script>
+</html>

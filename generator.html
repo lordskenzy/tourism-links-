@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     
+<div class="containerr">
+            <h1>Generate an <br> <span>OTP</span></h1>
+            <div class="display">
+                <input type="text" id="otp" placeholder="OTP">
+                <img src="./copy png.png" alt="" onclick="copyPassword()">
+            </div>
+            <button onclick="createPassword()"> <img src="./generate png.png"  >Generate OTP</button>
+            <div class="navigator">
+                <a href="./index.html"><p>Sign up </p></a>
+            </div>
+        </div>
+
+</body>
+<script src="./index.js"></script>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: 'Poppins', sans-serif;
+        box-sizing: border-box;
+    }
+    body{
+        background: rgb(130, 106, 251);
+        color: #fff;
+    }
+    .navigator  a{
+        text-decoration: none;
+        color: #fff;
+        cursor: pointer;
+    }
+    .containerr{
+        margin: 12% auto;
+        width: 90%;
+        max-width: 700px;
+    }
+    .display{
+        width: 100%;
+        margin-top: 50px;
+        margin-bottom: 30px;
+        background: #fff;
+        color: #333;
+        display: flex;
+        align-items: center;justify-content: space-between;
+        padding: 26px 20px;
+        border-radius: 5px;
+    }
+    .containerr h1{
+        font-weight: 500;
+        font-size: 45px;
+
+    }
+    .containerr h1 span{
+        color: r#019f55;
+        border-bottom: 4px solid #019f55;
+        padding-bottom: 7px;
+    }
+    .display img{
+        width: 30px;
+        cursor: pointer;
+    }
+    .display input{
+        border: 0;
+        outline: 0;
+        font-size: 24px;
+    }
+    .containerr button img{
+        width: 28px;
+        margin-right: 10px;
+
+    }
+    .containerr button{
+        border: 0;
+        outline: 0;
+        background-color: #019f55;
+        color: #fff;
+        font-size: 22px;
+        font-weight: 300;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 16px 26px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+</style>
+</html>
