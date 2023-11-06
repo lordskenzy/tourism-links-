@@ -4,10 +4,13 @@
     /* align-items: center; */
     box-sizing: border-box;
 }
+body{
+    height: 100vh;
+}
 .paper{
     margin: 20px auto;
     width: 8.3in;
-    border: 3px solid black;
+    /* border: 3px solid black; */
     height: 11.7in;
     display: flex;
     flex-direction: column;
@@ -96,10 +99,12 @@
 .form{
     margin: 0px auto;
 }
+
 .form input{
     border: none;
     width: 40em;
     border-bottom: 2px dotted   ;
+    outline: none;
 }
 .per-data .under-txt{
     display: flex;
@@ -142,7 +147,33 @@
 .form .bottom input{
     width: 100px;
 }
-
+.btn-field{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    margin: 40px auto;
+}    
+button{
+    flex-basis: 48%;
+    background: #3c00a0;
+    color: #fff;
+    height: 40px;
+    border-radius: 20px;
+    outline: none;
+    width: 10px;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s ease-in;
+}
+button:hover{
+    background-color: #8759d1;
+}
+button a{
+    text-decoration: none;
+    color: #fff;
+}
 
 
 

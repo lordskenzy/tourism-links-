@@ -19,6 +19,11 @@ function copyPassword(){
     document.execCommand("Copy");
 }
 
+
+const hideBtn = document.getElementById('next');
+hideBtn.addEventListener('keydown', function(){
+  
+})
 // const generatedOTP = createPassword();
 // function validateOTP(input){
 //   return input === generatedOTP;
